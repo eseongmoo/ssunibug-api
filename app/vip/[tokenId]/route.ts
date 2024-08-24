@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 const NFT_METADATA: { [key: string]: any } = {
     '0': {
         name: "Bugcity VIP #0",
-        description: "버그시티 VIP NFT입니다.",
+        description: "Bugcity VIP",
         image: "https://api.ssunibug.com/vip/0.mp4",
         attributes: [
             { trait_type: "Nickname", value: "Sunny" }
